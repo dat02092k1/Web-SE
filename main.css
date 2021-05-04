@@ -1,0 +1,154 @@
+.header {
+  height: 120px;
+ /* background-image: linear-gradient(to bottom right, #78b43d, yellowgreen); */
+ background-image: linear-gradient(to bottom right, #2d9742, #78b43d);
+ margin-bottom: 0px;
+}
+
+.header__nav {
+  display: flex;  
+  justify-content: space-between;
+  
+}
+
+.header__nav-list {
+  list-style: none;
+  padding-left: 0;	
+}
+
+.header__nav-item {
+  position: relative;
+}
+.header__nav-item,
+.header__nav-item-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  text-decoration: none;
+margin-right: 10px;
+}
+
+.header__nav-item:hover,
+.header__nav-icon-link:hover,
+.header__nav-item-link:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7); 
+}
+
+.header__nav-item
+
+.header__nav-item--divide::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background-color: ivory;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header__search {
+  line-height: 80px;
+  float: inline-end;
+  height: 200px;
+position: relative;
+}
+
+#search-bar {
+  display: inline-block;
+  width: 600px;
+  height: 30px;
+}
+
+.header__logo {
+  display: inline-block;
+  text-align: center;
+  height: 10px;
+  width: 1800px;
+}
+
+.header__logo-icon {
+  font-size: 5.0rem;
+position: absolute;
+top: 55px;
+}
+
+.header-search {
+  float: left;
+}
+
+.col-2 {
+position: absolute;
+left: 0%;
+margin-bottom: 50px;
+}
+
+article h3 {
+text-align: center;
+padding: 15px 0;  
+color: black;
+font-size: 20px; 
+font-weight: bold;
+}
+
+article .news_list .news_item {
+width: 28%;
+padding: 2%;
+float: left;
+border: 2px solid #ccc;
+margin-right: 4%;
+}
+
+.footer {
+  width: 1200px;
+  display: block;
+  background:#78b43d;
+  line-height: 40px;
+  color: #fff;
+  list-style: none;
+}
+
+.footer_list {
+  list-style: none;
+}
